@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Lato-Hairline;
+  src: url(../vendor/fonts/lato-hairline.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../vendor/fonts/lato-bold.ttf); }
+@font-face {
+  font-family: Lato-Black;
+  src: url(../vendor/fonts/lato-black.ttf); }
+@font-face {
+  font-family: Lato-Light;
+  src: url(../vendor/fonts/lato-light.ttf); }
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../vendor/fonts/lato-regular.ttf); }
+body > .container-fluid {
+  font-family: Lato-Black, serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+#nav {
+  background-color: #2c3e50 !important;
+  position: absolute;
+  width: 100%;
+  text-align: left; }
+  @media screen and (min-width: 768px) {
+    #nav {
+      padding: 1vw 10vw; } }
+  @media screen and (min-width: 990px) {
+    #nav {
+      padding: 1vw 20vw; } }
+  @media screen and (min-width: 990px) {
+    #nav a.navbar-brand {
+      padding: 0 20vw 0 0; } }
+  #nav button {
+    background-color: #18bc9c;
+    color: whitesmoke; }
+    @media screen and (min-width: 768px) {
+      #nav button {
+        background-color: #2c3e50; } }
+
+header {
+  background-color: #18bc9c;
+  text-align: center;
+  color: whitesmoke;
+  padding: 15vw 5vw 5vw 5vw; }
+  header h3 {
+    font-size: 6vw; }
+  header img {
+    padding-bottom: 4vw; }
+  header p {
+    font-family: Lato-Bold;
+    font-size: 3vw;
+    font-stretch: extra-expanded;
+    padding: 0 15%; }
+
+main.container-fluid {
+  text-align: center;
+  width: 75%;
+  padding-bottom: 2vw; }
+  main.container-fluid h1 {
+    padding: 5vw 0 0; }
+  main.container-fluid h3 {
+    padding: 0 0 3vw; }
+  main.container-fluid img {
+    width: 100%;
+    padding-bottom: 2vw; }
+
+section {
+  background-color: #18bc9c;
+  color: whitesmoke;
+  padding: 5vw; }
+  section p {
+    text-align: left;
+    padding: 1vw;
+    font-family: Lato-Regular; }
+
+.form {
+  padding: 5vw; }
+  .form h1 {
+    font-family: Lato-Black; }
+  .form form {
+    font-family: Lato-Regular;
+    text-align: left; }
+    .form form div.form-group input, .form form div.form-group textarea {
+      border: 0;
+      border-bottom: 1px solid lightgray; }
+  .form button {
+    background-color: #18bc9c;
+    border: none; }
+
+footer {
+  background-color: #2c3e50;
+  color: whitesmoke;
+  font-family: Lato-Regular;
+  text-align: center;
+  padding: 5vw 0; }
+  footer p#thanks {
+    color: grey;
+    margin: -1.5vw 0 0 0; }
+
+/*# sourceMappingURL=main.css.map */

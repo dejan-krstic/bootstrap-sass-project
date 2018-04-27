@@ -1,0 +1,24 @@
+#nav {
+    background-color: $blueish!important;
+    position:absolute;
+    width: 100%;
+    text-align: left;
+    @media screen and (min-width:768px) {
+        padding: 1vw 10vw;
+    }
+    @media screen and (min-width:990px) {
+        padding:1vw 20vw;
+    }
+    a.navbar-brand {
+        @media screen and (min-width:990px) {
+            padding: 0 20vw 0 0; 
+        }
+    }
+    button {
+        background-color: $greenish;
+        color: whitesmoke;
+        @media screen and (min-width:768px) {
+            background-color: $blueish;
+        }
+    }
+}
